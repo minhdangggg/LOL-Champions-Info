@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+}
+
+.all-home {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  flex-direction: column;
+  background-color: #333333;
+}
+
+.header-home {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #575757;
+  position: relative;
+}
+.title-home {
+  font-size: 40px;
+  position: absolute;
+  top: 34px;
+  left: 208px;
+}
+.search-home {
+  width: 350px;
+  height: 50px;
+  background-color: #575757;
+  margin-top: 85px;
+  fill: #575757;
+  border: 3px solid #000000;
+  border-radius: 4px;
+}
+
+.input-home {
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+  outline: none;
+  line-height: 100%;
+  border: none;
+  background-color: transparent;
+  caret-color: red;
+}
+.input-home::placeholder {
+  color: #d9d9d9;
+}
+
+.cham-box-home {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 90px;
+  width: 1028px;
+  gap: 46px;
+}
+.champion-home {
+  position: relative;
+}
+.mark {
+  position: absolute;
+  bottom: 0px;
+  width: 312px;
+  height: 147px;
+  background: rgba(0, 0, 0, 0.6);
+  filter: blur(2px);
+  border-radius: 0px 0px 5px 5px;
+}
+.cham-name {
+  position: absolute;
+  left: 24px;
+  bottom: 83px;
+  // color: white;
+  border-radius: 3px;
+  padding: 0 5px;
+  font-size: 23px;
+  font-weight: 700;
+}
+.cham-img-home {
+  height: 420px;
+  width: 312px;
+}
+
+.cham-role1 {
+  background-color: red;
+  border-radius: 25px;
+  padding: 5px 10px;
+  color: white;
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
+}
+.cham-role2 {
+  background-color: red;
+  border-radius: 25px;
+  padding: 5px 10px;
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  right: 70px;
+}
+img:hover {
+  cursor: pointer;
+}

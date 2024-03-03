@@ -1,0 +1,54 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+}
+
+
+.cham-bg{
+  width: 1024px;
+  height:  620px;
+}
+.skill-box{
+  height: 400px;
+  .skill-name{
+    height: 45px;
+  }
+}
+
+.top-section{
+
+padding-top: 55px;
+height: 210px;
+display: flex;
+justify-content: space-between;
+margin: 0 25px;
+.skill-img{
+  img { height: 150px;
+  width: 150px;
+}
+}
+}
+
+.full-skin{
+  width: 1024px;
+  height:  620px;
+}
+.skill-name{
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+}
+
+.skill-content{
+  height: 70px;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+
+}
+
+.selected{
+  border: 1px solid silver;
+}
